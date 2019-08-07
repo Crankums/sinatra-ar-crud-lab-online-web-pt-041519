@@ -2,7 +2,7 @@
 
 class Article < ActiveRecord::Base
   attr_accessor :title, :content
-  ARTICLE
+  ARTICLE = []
 
   def initialize(title, content)
     @title = title
@@ -11,6 +11,6 @@ class Article < ActiveRecord::Base
   end
 
   def self.all
-
+    ARTICLE
   end
 end
