@@ -11,6 +11,6 @@ class Article < ActiveRecord::Base
   end
 
   def self.all
-    
+
   end
 end
